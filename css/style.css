@@ -6,3 +6,18 @@ header {
 	background: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.05)), url('../img/header-background.jpg');
     height: 100vh;
 	}
+	
+img {
+	width: 230px;
+	height: 70px;
+}	
+
+nav a.logo {
+	display: inline-block;
+	line-height: 90px;
+	margin-left: 3&;
+}
+
+header nav {
+	height: 90px;
+}
