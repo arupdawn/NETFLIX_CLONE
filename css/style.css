@@ -1,5 +1,5 @@
 html, body {
-	margin: 0;
+	
     font-family: 'Helvetica Neue',Helvetica,Arial,sanz-serif;
     color: write;
 	background-color: black;
@@ -85,39 +85,34 @@ nav .signin {
 	margin: 0 0 .5em;
 }
 
+
 .btn {
-	font-size: 14px;
-	letter-spacing: 1.9px;
-	font-weight: 400;
-	margin: .5em .5em .5em 0;
-	padding: 12px 2em;
-	color: #fff;
-	background-color: #e50914;
-	cursor: pointer;
-	text-decoration: none;
-	vertical-align: middle;
-	font-family: Arial,sanz-serif;
-	border-radius: 2px;
-	user-select: none;
-	text-align: center;
-	border: 0;
-	
-}
+  font-size: 14px;
+  letter-spacing: 1.9px;
+  font-weight: 400;
+  margin: .5em .5em .5em 0;
+  padding: 12px 2em;
+  color: #fff;
+  background-color: #e50914;
+  cursor: pointer;
+  text-decoration: none;
+  vertical-align: middle;
+  font-family: Arial,sans-serif;
+  border-radius: 2px;
+  user-select: none;
+  text-align: center;
+  border: 0;
+}    
+
+
+
+
+
+
 
 .btn-large {
   padding: 18px 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 
 nav .signin:hover, .btn:hover {
@@ -207,6 +202,36 @@ nav .signin:hover, .btn:hover {
 
 #features img {
   max-width: 100%;
+}
+
+
+
+
+#features #watchanywhere h2 {
+  font-size: 19px;
+  padding-right: 1em;
+  margin: 0 0 20px;
+}
+
+#features #watchanywhere > div:first-child {
+  margin-bottom: 60px;
+}
+
+#features #watchanywhere p {
+  color: #999;
+}
+
+...
+.column.is-narrow {
+  flex: none;
+}
+...
+.size-90 {
+  width: 90%;
+}
+...
+.text-center {
+  text-align: center;
 }
 
 
